@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Break the Bias | Homepage</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+    <body>
+        <!-- This is the nav bar  -->
+        <nav class="navigation-bar">
+            <div class="logo">
+                <img src="/Assets/logo.png" alt="logo" height="50px" width="50px">
+            </div>
+            <div class="navbar" id="myTopnav">
+                <a href="Home.html" class="navigation-item">Home</a>
+                <div class="dropdown">
+                <button class="dropbtn">Feature Stories 
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                    <div class="dropdown-content">
+                        <a href="/Profile3.html">Katherine Johnson</a>
+                        <a href="/profile4.html">Grace Hopper</a>
+                        <a href="/profile2.html">Anita Borg</a>
+                        <a href="/Profile1.html">Annie Easely</a>
+                    </div>
+                </div> 
+                <a href="/getinvolved.html" class="navigation-item">Get Involved</a>
+                <a href="contact.html" class="navigation-item">Contact </a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+            </div>
+        </nav>
+
+        <!-- This is the hero image and elements, using placeholder -->
+        <div class="container"> 
+            <div class="main-title">
+                <h1> Smashing Gender Stereotypes </h1>
+            </div>
+            <div class="subtitle"> 
+                <h2> <i>#Breakthebias </i></h2>
+            </div>
+            <div class="btn-hp">
+                <button type="button" class="btn-1"> <a href="/featurestories.html" class="removinglink"> Explore > </a> </button>
+            </div>
+            <img class="hero-image" src="/Assets/hero-image.png" alt="homepage image">
+        </div>
+
+        <div class="section2Title">
+            <h2>Just the way it is?</h2>
+        </div>
+
+        <div class="section2paragraph">
+            <p> According to the UN, a significant <a href="https://www.un.org/en/observances/women-and-girls-in-science-day" target="_blank"> gender gap</a> still persists within science, technology, engineering and mathematics (STEM) disciplines all over the world. </p>
+            <p>This gender gap is influenced by harmful stereotypes and prejudices which act to block opportunities for women and persons identifying as female. </p>
+            <p> In conjuction with the Code First Girls (CFG) ethos of creating a more balanced representation of women in tech, this international women’s day we want to fight back against gender stereotyping in STEM. </p>
+            <p> Join us this international women day to <i class="hashtag">#breakthebias</i> of women in tech. </p>
+        </div>
+
+        <div id="quoteDisplay" class="section2quote">
+            <h3>
+                "Science is not a boy's game, it's not a girl's game.<br>
+                It's everyone's game.”
+            </h3>
+            <button class="button" id="button" onclick="newQuote()">Change quote</button>
+            <script src="/script.js"></script>
+        </div>
+        <div class="section3title">
+            <h2 class="feature-stories-padding">Feature Stories</h2>
+        </div>
+        <div class="home_featurestories">
+            <div class="column">
+                <div class="hover_image"> 
+                <a href="Profile3.html">
+                <img class="image_img" src="/Assets/profile_1.png" alt="image of Katherine Johnson" title="Katherine Johnson"> 
+                    <div class="overlay"> 
+                    <h4 class="image-title">Katherine Johnson</h4>
+                    <p class="image-description"> Mathematician</p>
+                    </div>
+                </a>
+                </div>
+            </div>
+            <div class="column">
+                <div class="hover_image"> 
+                <a href="profile4.html">
+                <img class="image_img" src="/Assets/profile_3.png" alt="image of Grace Hopper" title="Grace Hopper"> 
+                    <div class="overlay"> 
+                    <h4 class="image-title">Grace Hopper</h4>
+                    <p class="image-description"> Computer Programmer</p>
+                    </div>
+                </a>
+                </div>
+            </div>
+            <div class="column">
+                <div class="hover_image"> 
+                <a href="profile2.html">
+                <img class="image_img" src="/Assets/profile_2.png" alt="image of Anita Borg" title="Anita Borg"> 
+                    <div class="overlay"> 
+                    <h4 class="image-title">Anita Borg</h4>
+                    <p class="image-description"> Computer Scientist</p>
+                    </div>
+                </a>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="hover_image"> 
+                <a href="Profile1.html">
+                <img class="image_img" src="/Assets/annie.png" alt="image of Annie Easley" title="Annie Easley"> 
+                    <div class="overlay"> 
+                    <h4 class="image-title">Annie Easley</h4>
+                    <p class="image-description"> Computer Scientist</p>
+                    </div>
+                </a>
+                </div>
+            </div>
+        </div>
+        <br>
+        <footer class="end">
+            <a href="Home.html" class="footeritem">Home |</a>
+            <a href="getinvolved.html"class="footeritem">Get involved |</a>
+            <a href="contact.html"class="footeritem">Contact </a>
+            <div class="footer-email-form">
+                <h4>Join our newsletter</h4>
+                <input type="email" placeholder="Enter your email address"
+                id="footer-email">
+            <input type="submit" value="Sign Up" id="footer-email-btnq">
+            </div>
+            <p class="copyright">Made by CFG Team 2: Elena Fan, Roisin Healy, Emma Fields and Zoe Akahoho &copy; 2022 </p> 
+        </footer>  
+    </body>
+</html>
